@@ -70,7 +70,7 @@ nav ul li a{
 }
 
 nav ul li a:visited{
-	color #09c;
+	color: #09c;
 }
 
 nav ul li a:hover{
@@ -148,7 +148,7 @@ div.field, div.actions {
 }
 
 .field_with_errors label {
-	color #fff;
+	color: #fff;
 }
 
 #error_explanation {
@@ -182,5 +182,20 @@ div.field, div.actions {
 	list-style: square;
 }
 
+ul.users {
+	margin-top: lem;
+}
 
+.users li {
+	list-style: none;
+}
 
+form.button_to {
+    margin:0;
+    padding:0;
+    display:inline;
+}
+
+form.button_to div, form.button_to div input {
+    display:inline;
+}
